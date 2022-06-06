@@ -4,10 +4,220 @@
 <head>
     <meta charset="UTF-8" />
     <title>Résumé</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
 </head>
 
 <body>
-    ― Hello World! &#x1F609;
+    <main>
+        <div class="resume">
+            <div class="container">
+                <div class="resume__block">
+                    <h1 class="contact-info__header">Ozirna Margarita</h1>
+                    <h3 class="contact-info__sub-header">Quality Assurance engineer</h3>
+
+                    <div class="contact_info_container fh">
+                        <div class="contact-info__block">
+                            <a href="" rel="author" class="contact-info__item">
+                                <div class="contact-info__item-icon-wrapper">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-calendar contact-info__item-icon" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
+                                    </svg>
+                                </div>
+                                <span>01.08.1994 </span>
+                            </a>
+                            <a href="https://www.google.com/maps/place/%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.401699,30.252512,10z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf4ee15a4505:0x764931d2170146fe!8m2!3d50.4501!4d30.5234"
+                                rel="author" class="contact-info__item" target="_blank">
+                                <div class="contact-info__item-icon-wrapper">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-geo-alt contact-info__item-icon" viewBox="0 0 16 16">
+                                        <path
+                                            d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                    </svg>
+                                </div>
+                                <span>Kyiv, Ukraine</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/margarita-ozirna/" rel="author"
+                                class="contact-info__item" target="_blank">
+                                <div class="contact-info__item-icon-wrapper">
+                                    <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 448 512">
+                                        <path
+                                            d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <span>margarita-ozirna</span>
+                            </a>
+                        </div>
+
+                        <div class="contact-info__block contact-info__block--center">
+                            <img class="contact-info__avatar" src="assets/avatar.png" alt="Avatar">
+                        </div>
+
+                        <div class="contact-info__block">
+                            <a href="https://www.google.com/intl/ru/gmail/about/" rel="author"
+                                class="contact-info__item" target="_blank">
+                                <div class="contact-info__item-icon-wrapper">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-envelope-heart contact-info__item-icon" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l3.235 1.94a2.76 2.76 0 0 0-.233 1.027L1 5.384v5.721l3.453-2.124c.146.277.329.556.55.835l-3.97 2.443A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741l-3.968-2.442c.22-.28.403-.56.55-.836L15 11.105V5.383l-3.002 1.801a2.76 2.76 0 0 0-.233-1.026L15 4.217V4a1 1 0 0 0-1-1H2Zm6 2.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z" />
+                                    </svg>
+                                </div>
+                                <span>ritkapuh1@gmail.com</span>
+                            </a>
+                            <a href="https://www.google.com/intl/ru/gmail/about/" rel="author"
+                                class="contact-info__item" target="_blank">
+                                <div class="contact-info__item-icon-wrapper">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-phone contact-info__item-icon" viewBox="0 0 16 16">
+                                        <path
+                                            d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
+                                        <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+                                    </svg>
+                                </div>
+                                <span>+380 63 648 4663</span>
+                            </a>
+                            <a href="https://www.instagram.com/romashkaoz/" rel="author" class="contact-info__item"
+                                target="_blank">
+                                <div class="contact-info__item-icon-wrapper">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-instagram contact-info__item-icon" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                    </svg>
+                                </div>
+                                <span>romashkaoz</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="resume__block">
+                    <div class="intro">
+                        <div class="intro__icon-wrapper">
+                            <svg class="intro__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path
+                                    d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
+                                </path>
+                            </svg>
+                        </div>
+                        <p class="intro_text">“Quality is never an accident; it is always the result of high intention,
+                            sincere effort, intelligent direction and skillful execution; it represents the wise choice
+                            of many alternatives.” ~William A. Foster
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="resume__block">
+                    <div class="skills">
+                        <h3 class="skills__header">Skills</h3>
+                        <ul>
+                            <li>The fundamental theory of testing</li>
+                            <li>Understanding of test design techniques and their types</li>
+                            <li>Knowledge of test documentation and types</li>
+                            <li>Understanding of bug lifecycle</li>
+                            <li> Understanding of software development methodologies</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="resume__block">
+                    <div class="main-info fh">
+
+                        <div class="experiences">
+                            <h3 class="experiences__header">Experience</h3>
+                            <div class="experiences__company">
+                                <div class="experiences__company-header">
+                                    <span class="experiences__company-header-durability">02.09.2019 - 31.05.2021</span>
+                                    <h3 class="experiences__company-header-name">Kyiv institute of land relation</h3>
+                                </div>
+
+                                <div class="experiences__company-project">
+                                    <span class="experiences__company-project-role">Front-end developer</span>
+                                    <h5 class="experiences__company-project-name">Design and establish user-friendly
+                                        websites, architect new features and create new capabilities using:</h5>
+                                    <ul class="experiences__company-project-responsibilities">
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>JavaScript</li>
+                                        <li>ArcGIS</li>
+                                        <li>Material UI</li>
+                                        <li>ReactJS</li>
+                                        <li>JSON</li>
+                                        <li>Git</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="additional-info__languages">
+                                <h3 class="additional-info__languages-header">Languages</h3>
+                                <p class="additional-info__languages-item">
+                                    English - B1
+                                </p>
+                                <p class="additional-info__languages-item">
+                                    Ukrainian - native
+                                </p>
+                                <p class="additional-info__languages-item">
+                                    Russian - fluent
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="additional-info fv">
+                            <div class="additional-info__education">
+                                <h3 class="additional-info__education-header">Education</h3>
+                                <div class="additional-info__education-university">
+                                    <span class="additional-info__education-university-durability">2022</span>
+                                    <h4 class="additional-info__education-university-speciality">«QA Starter» course,
+                                    </h4>
+                                    <p class="additional-info__education-university-name"> ITVDN</p>
+                                    <h4 class="additional-info__education-university-speciality">«Beginner QA» course
+
+                                    </h4>
+                                    <p class="additional-info__education-university-name"> NIX Education</p>
+                                    <h4 class="additional-info__education-university-speciality"> «Basic of softvare
+                                        testing» course </h4>
+                                    <p class="additional-info__education-university-name"> Prometheus</p>
+                                </div>
+                                <div class="additional-info__education-university">
+                                    <span class="additional-info__education-university-durability">2018-2019</span>
+                                    <h4 class="additional-info__education-university-speciality">«Front-end» course
+                                    </h4>
+                                    <p class="additional-info__education-university-name">Mate academy </p>
+                                </div>
+                                <div class="additional-info__education-university">
+                                    <span class="additional-info__education-university-durability">2018</span>
+                                    <h4 class="additional-info__education-university-speciality">Master's degree, Trade
+                                        and Exchange Activities, </h4>
+                                    <p class="additional-info__education-university-name">National University of Food
+                                        Technologies</p>
+                                </div>
+                                <div class="additional-info__education-university">
+                                    <span class="additional-info__education-university-durability">2016</span>
+                                    <h4 class="additional-info__education-university-speciality">Bachelor's degree,
+                                        Automation, and Computer-Integrated Technologies</h4>
+                                    <p class="additional-info__education-university-name">National University of Food
+                                        Technologies</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
